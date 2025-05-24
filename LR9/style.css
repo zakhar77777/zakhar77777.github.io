@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.logo {
+  color: #3498db;
+}
+.navigation a {
+  margin-left: 20px;
+  font-weight: bold;
+}
+.hero {
+  background: url('jumbotron.jpg') no-repeat center center/cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.btn-primary {
+  display: inline-block;
+  background: #e91e63;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 25px;
+}
+.services {
+  text-align: center;
+  padding: 60px 0;
+}
+.service-items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.service-item {
+  flex: 1;
+  margin: 0 15px;
+}
+.service-item img {
+  width: 50px;
+  margin-bottom: 20px;
+}
+.blog {
+  padding: 60px 0;
+}
+.blog-post {
+  display: flex;
+  margin-bottom: 40px;
+}
+.blog-post img {
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+}
+footer {
+  background: #2c3e50;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+footer .navigation a {
+  margin: 0 10px;
+  color: white;
+  font-weight: normal;
+}
